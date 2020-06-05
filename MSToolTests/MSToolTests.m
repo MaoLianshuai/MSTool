@@ -1,18 +1,18 @@
 //
-//  MSToolDemoTests.m
-//  MSToolDemoTests
+//  MSToolTests.m
+//  MSToolTests
 //
-//  Created by iOS on 2020/6/3.
+//  Created by iOS on 2020/6/5.
 //  Copyright © 2020 mls. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface MSToolDemoTests : XCTestCase
+@interface MSToolTests : XCTestCase
 
 @end
 
-@implementation MSToolDemoTests
+@implementation MSToolTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
