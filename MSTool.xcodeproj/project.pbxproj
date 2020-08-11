@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F5D42B24E2442800B5DCAA /* MSUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F5D42924E2442800B5DCAA /* MSUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F5D42C24E2442800B5DCAA /* MSUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F5D42A24E2442800B5DCAA /* MSUncaughtExceptionHandler.m */; };
 		81AB953A248A118600B8F015 /* MSTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AB9530248A118600B8F015 /* MSTool.framework */; };
 		81AB953F248A118600B8F015 /* MSToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AB953E248A118600B8F015 /* MSToolTests.m */; };
 		81AB954F248A14C300B8F015 /* MSDebugFPSButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AB954D248A14C300B8F015 /* MSDebugFPSButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25F5D42924E2442800B5DCAA /* MSUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		25F5D42A24E2442800B5DCAA /* MSUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSUncaughtExceptionHandler.m; sourceTree = "<group>"; };
 		81AB9530248A118600B8F015 /* MSTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9534248A118600B8F015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81AB9539248A118600B8F015 /* MSToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25F5D42824E243F700B5DCAA /* UncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				25F5D42924E2442800B5DCAA /* MSUncaughtExceptionHandler.h */,
+				25F5D42A24E2442800B5DCAA /* MSUncaughtExceptionHandler.m */,
+			);
+			path = UncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
 		81AB9526248A118500B8F015 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 		81AB9532248A118600B8F015 /* MSTool */ = {
 			isa = PBXGroup;
 			children = (
+				25F5D42824E243F700B5DCAA /* UncaughtExceptionHandler */,
 				81AB9551248A14EB00B8F015 /* FPS */,
 				81AB9534248A118600B8F015 /* Info.plist */,
 			);
@@ -104,6 +118,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5D42B24E2442800B5DCAA /* MSUncaughtExceptionHandler.h in Headers */,
 				81AB954F248A14C300B8F015 /* MSDebugFPSButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9550248A14C300B8F015 /* MSDebugFPSButton.m in Sources */,
+				25F5D42C24E2442800B5DCAA /* MSUncaughtExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
